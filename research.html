@@ -1,0 +1,59 @@
+---
+layout: default
+title: Research
+permalink: /research/
+description: "Research by Laxmikanta Sarangi — working papers and publications on market power, markups and markdowns, monopsony, and labour misallocation in Indian organised manufacturing (ASI)."
+---
+
+<h1>Research</h1>
+<p class="muted">
+  My research measures firm-level market power — product-market markups and labour-market
+  markdowns — and its consequences for wages and the allocation of labour in Indian
+  organised manufacturing, using plant-level Annual Survey of Industries (ASI) data.
+</p>
+
+{% assign section_keys   = "featured|publications|working_papers|reviews|work_in_progress" | split: "|" %}
+{% assign section_titles = "Featured Working Paper|Publications|Working Papers|Literature Reviews|Work in Progress" | split: "|" %}
+{% assign section_badges = "Working Paper|Published|Working Paper|Review|In progress" | split: "|" %}
+
+{% for i in (0..4) %}
+  {% assign key = section_keys[i] %}
+  {% assign items = site.data.publications[key] %}
+  {% if items and items.size > 0 %}
+  <section>
+    <h2>{{ section_titles[i] }}</h2>
+    {% for p in items %}
+      {% capture namebold %}<strong>{{ site.name }}</strong>{% endcapture %}
+      <div class="{% if key == 'featured' %}featured-paper{% else %}paper{% endif %}">
+        <span class="badge">{{ section_badges[i] }}</span>
+        <h3>{{ p.title }}</h3>
+        <p class="authors">{{ p.authors | replace: site.name, namebold }}{% if p.year and p.year != "in progress" %} · {{ p.year }}{% endif %}</p>
+        {% if p.venue %}<p class="venue">{{ p.venue }}</p>{% endif %}
+
+        {% if p.abstract %}
+        <details class="abstract">
+          <summary>Abstract</summary>
+          <div class="abstract-body">{{ p.abstract }}</div>
+        </details>
+        {% endif %}
+
+        {% if p.note %}<p class="note">{{ p.note }}</p>{% endif %}
+
+        {% if p.pdf or p.slides %}
+        <div class="btn-row">
+          {% if p.pdf %}<a class="btn" href="{{ '/assets/papers/' | append: p.pdf | prepend: site.baseurl }}">Download PDF</a>{% endif %}
+          {% if p.slides %}<a class="btn" href="{{ '/assets/papers/' | append: p.slides | prepend: site.baseurl }}">Slides</a>{% endif %}
+        </div>
+        {% endif %}
+
+        {% if p.jel or p.keywords %}
+        <p class="meta">
+          {% if p.jel %}<span><strong>JEL</strong>&nbsp;{{ p.jel }}</span>{% endif %}
+          {% if p.keywords %}<span><strong>Keywords</strong>&nbsp;{{ p.keywords }}</span>{% endif %}
+        </p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+{% endfor %}

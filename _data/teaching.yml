@@ -1,0 +1,15 @@
+# =============================================================================
+#  teaching.yml  —  teaching experience shown on the Teaching page.
+#  Add or edit entries here; no HTML needed.
+# =============================================================================
+
+- role: "Lecturer in Economics (SSB)"
+  institution: "P. S. College, Gaisilat, Odisha"
+  period: "March 2024 – December 2024"
+  level: "Undergraduate (B.A. Economics, Honours)"
+  courses:
+    - "Microeconomics-II"
+    - "Macroeconomics-I"
+    - "Statistics for Economics"
+    - "Introductory Econometrics"
+  description: "Taught core Honours courses in microeconomics, macroeconomics, statistics and econometrics to undergraduate Economics students."

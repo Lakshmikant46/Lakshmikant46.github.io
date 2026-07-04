@@ -1,0 +1,46 @@
+# =============================================================================
+#  Site configuration.  Edit the values below; most content lives in
+#  _data/publications.yml, _data/teaching.yml, and the page files.
+#
+#  After editing this file you must restart `jekyll serve` for changes to show.
+# =============================================================================
+
+# ---- Identity -----------------------------------------------------------------
+name:        "Laxmikanta Sarangi"
+tagline:     "Ph.D. Candidate in Economics · IIT Roorkee"
+description: "Personal academic website of Laxmikanta Sarangi, Ph.D. candidate in Economics at IIT Roorkee, working on firm-level market power, monopsony, and labour (mis)allocation in Indian manufacturing."
+
+# ---- URL ----------------------------------------------------------------------
+# For a GitHub *user site* the repo must be named  Lakshmikant46.github.io
+# and the live address is:
+url:     "https://lakshmikant46.github.io"
+baseurl: ""      # leave "" for a user site; use "/repo-name" for a project site
+
+# ---- Contact / profile links (only real ones are shown) -----------------------
+email_academic: "laxmikanta_s@hs.iitr.ac.in"
+email_personal: "lks19.11.12@gmail.com"
+github:         "Lakshmikant46"
+# Add these later if you create them; blank = hidden:
+google_scholar: ""
+orcid:          ""
+linkedin:       ""
+twitter:        "Laxmikantsaran1"
+
+# ---- Affiliation --------------------------------------------------------------
+institution: "Indian Institute of Technology (IIT) Roorkee"
+department:  "Department of Humanities & Social Sciences (Economics)"
+advisor:     "Prof. Falguni Pattanaik"
+
+# ---- CV -----------------------------------------------------------------------
+# When you have a redacted CV ready, put the PDF at assets/cv/ and set its
+# filename here (e.g. "laxmikanta-sarangi-cv.pdf"). Blank = "coming soon" notice.
+cv_file: "laxmikanta-sarangi-cv.pdf"
+
+# ---- Build --------------------------------------------------------------------
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

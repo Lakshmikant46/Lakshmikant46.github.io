@@ -1,0 +1,63 @@
+<!-- Shared layout: <head>, top navigation, and footer for every page. -->
+{% assign page_title = page.title | default: site.name %}
+{% if page.title %}{% assign full_title = page.title | append: " · " | append: site.name %}{% else %}{% assign full_title = site.name | append: " · " | append: site.tagline %}{% endif %}
+{% assign page_desc = page.description | default: site.description %}
+{% assign og_image = "/assets/img/laxmikanta-sarangi.jpg" | prepend: site.baseurl | prepend: site.url %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ page_desc | strip_newlines }}">
+  <meta name="author" content="{{ site.name }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc | strip_newlines }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc | strip_newlines }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+
+  <!-- Fonts (falls back to system serif if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="{{ '/' | prepend: site.baseurl }}">{{ site.name }}</a>
+      <nav class="site-nav" aria-label="Primary">
+        {% assign u = page.url %}
+        <a href="{{ '/' | prepend: site.baseurl }}"          {% if u == '/' %}aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/research/' | prepend: site.baseurl }}"  {% if u contains 'research' %}aria-current="page"{% endif %}>Research</a>
+        <a href="{{ '/cv/' | prepend: site.baseurl }}"        {% if u contains 'cv' %}aria-current="page"{% endif %}>CV</a>
+        <a href="{{ '/teaching/' | prepend: site.baseurl }}"  {% if u contains 'teaching' %}aria-current="page"{% endif %}>Teaching</a>
+        <a href="{{ '/contact/' | prepend: site.baseurl }}"   {% if u contains 'contact' %}aria-current="page"{% endif %}>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.name }}. All rights reserved.</p>
+      <p class="muted">Last updated {{ site.time | date: "%-d %B %Y" }}.</p>
+    </div>
+  </footer>
+</body>
+</html>

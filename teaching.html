@@ -1,0 +1,23 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+description: "Teaching experience of Laxmikanta Sarangi — undergraduate economics courses in microeconomics, macroeconomics, statistics and econometrics."
+---
+
+<h1>Teaching</h1>
+
+{% for t in site.data.teaching %}
+<div class="teach">
+  <h3>{{ t.role }}</h3>
+  <p class="venue">{{ t.institution }} · <span class="period">{{ t.period }}</span></p>
+  {% if t.level %}<p class="muted">{{ t.level }}</p>{% endif %}
+  {% if t.description %}<p>{{ t.description }}</p>{% endif %}
+  {% if t.courses %}
+  <p class="muted"><strong>Courses taught</strong></p>
+  <ul class="course-list">
+    {% for c in t.courses %}<li>{{ c }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endfor %}

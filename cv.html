@@ -1,0 +1,31 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+description: "Curriculum vitae of Laxmikanta Sarangi, Ph.D. candidate in Economics, IIT Roorkee."
+---
+
+<h1>Curriculum Vitae</h1>
+
+{% if site.cv_file and site.cv_file != "" %}
+  {% assign cv_url = site.cv_file | prepend: '/assets/cv/' | prepend: site.baseurl %}
+  <p class="btn-row"><a class="btn" href="{{ cv_url }}" download>Download CV (PDF)</a></p>
+  <object class="cv-viewer" data="{{ cv_url }}" type="application/pdf" aria-label="Curriculum vitae PDF">
+    <p>Your browser can't display the embedded PDF.
+       <a href="{{ cv_url }}">Download the CV (PDF)</a> instead.</p>
+  </object>
+{% else %}
+  <div class="cv-placeholder">
+    <p><strong>CV coming soon.</strong></p>
+    <p>A downloadable PDF of my curriculum vitae will be posted here shortly.<br>
+       In the meantime, please see my <a href="{{ '/research/' | prepend: site.baseurl }}">research</a>
+       or <a href="{{ '/contact/' | prepend: site.baseurl }}">get in touch</a>.</p>
+  </div>
+  <!--
+    TO PUBLISH YOUR CV:
+    1. Put the PDF (ideally a version without personal/referee phone numbers) in  assets/cv/
+    2. In _config.yml set:  cv_file: "your-file-name.pdf"
+    3. Restart `jekyll serve` (or just push to GitHub).
+    The embedded viewer and a "Download CV (PDF)" button will then appear automatically.
+  -->
+{% endif %}
