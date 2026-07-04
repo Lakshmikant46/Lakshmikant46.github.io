@@ -1,0 +1,306 @@
+# =============================================================================
+#  publications.yml  —  ALL of your research lives here.
+#
+#  To ADD or EDIT a paper, just edit this file. No HTML needed.
+#  Copy an existing block, change the fields, and save.
+#
+#  Fields:
+#    title      : paper title (required)
+#    authors    : full author list; your name is auto-highlighted
+#    year       : year (number or "in progress")
+#    venue      : journal / status line shown under the title
+#    jel        : JEL codes (optional)
+#    keywords   : comma-separated keywords (optional)
+#    pdf        : file in /assets/papers/  (leave blank if none yet)
+#    slides     : file in /assets/papers/  (leave blank if none)
+#    note       : small italic note (optional)
+#    abstract   : the abstract (shown in a collapsible box)
+#
+#  Sections below are rendered in this order on the Research page:
+#    featured -> publications -> working_papers -> reviews -> work_in_progress
+# =============================================================================
+
+featured:
+  - title: "Market Power in Indian Organised Manufacturing: Trends, Determinants, and Labour Market Implications"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Working draft (May 2026). Under preparation for journal submission — Journal of Development Economics / Economic Development and Cultural Change / Indian Economic Review."
+    jel: "D22, D43, J42, L11, O14"
+    keywords: "markup, markdown, monopsony, market power, Indian manufacturing, ASI, production function, Cobb–Douglas"
+    pdf: "paper1-market-power.pdf"
+    slides:
+    note:
+    abstract: >
+      This paper estimates product-market markups for Indian organised manufacturing
+      using plant-level data from the Annual Survey of Industries (ASI) for 2012–13 to
+      2023–24 (N = 515,374 plant-year observations; 79,704 unique factories across 23
+      two-digit NIC industries). Markups are estimated via the production-function
+      approach of De Loecker & Warzynski (2012), combining a Cobb–Douglas specification
+      with the Ackerberg–Caves–Frazer (ACF) proxy-variable estimator. Contrary to the
+      global trend of rising markups documented by De Loecker, Eeckhout & Unger (2020),
+      the sales-weighted mean markup in Indian organised manufacturing fell from 1.88 in
+      2012–13 to 1.73 in 2023–24 (a decline of 8.2%), though it remains substantially
+      above unity throughout. The median markup is more stable (1.20 in 2013 to 1.17 in
+      2024), indicating that the mean is shaped by a fat right tail of high-markup plants.
+      Markup heterogeneity across industries is large: the median markup ranges from 2.00
+      in tobacco products to 1.07 in basic metals. Within-plant regressions show that a
+      larger output-market share raises market power, while a larger employment share
+      reduces the labour markdown, consistent with dynamic monopsony. Higher markup is
+      associated with lower wages, and higher markdown is similarly associated with lower
+      wages. The labour share of revenue has fallen from 22.3% in 2012–13 to 16.2% in
+      2023–24. These findings have direct implications for competition policy and labour
+      market regulation in India.
+
+publications:
+  - title: "Structural Change and Manufacturing Productivity Growth in Odisha: Evidence from Organised Industries"
+    authors: "Laxmikanta Sarangi, Eti Arpita Das, Falguni Pattanaik"
+    year: 2026
+    venue: "Published in Samiskhya, Vol. 15 (2026) — Journal of the Directorate of Economics & Statistics, Government of Odisha. Released on the 20th National Statistics Day, 29 June 2026."
+    jel: "O14, O47, L60, D24, R11"
+    keywords: "structural change, labour-productivity decomposition, growth accounting, total factor productivity, gross-output growth, manufacturing, Odisha (ASI)"
+    pdf: "structural-change-odisha.pdf"
+    slides:
+    note:
+    abstract: >
+      Structural change drives the reallocation of labour across sectors and shapes
+      productivity, employment and economic growth. This study examines the patterns and
+      determinants of labour-productivity growth in the manufacturing sector of Odisha
+      using industry-level data from the Annual Survey of Industries (ASI). Its objective
+      is to analyse the contribution of factor accumulation, technological progress and
+      structural change to manufacturing productivity growth across industries. A
+      growth-accounting framework decomposes aggregate value-added growth into the
+      contributions of capital, labour and total factor productivity (TFP), while a
+      structural-decomposition (production-function) approach following de Vries et al.
+      (2015) separates productivity gains arising within industries from those arising
+      from the reallocation of resources across industries. Gross-output growth is further
+      computed for twenty-three 2-digit NIC manufacturing divisions over 2014–15 to
+      2023–24. The results show that within-industry improvements and TFP, rather than
+      factor accumulation, are the dominant sources of manufacturing productivity growth
+      in most years, while reallocation effects are usually small but occasionally
+      decisive: in 2022–23 a sharp negative static reallocation (−15.56 percentage points)
+      turned labour-productivity growth negative (−10.97 percentage points) amid
+      post-pandemic reverse structural transformation and energy-price shocks. Gross-output
+      growth was highly uneven across industries, with food products, electrical equipment,
+      fabricated metals, basic metals and chemicals emerging as the principal growth
+      drivers. The findings underline that allocative efficiency and productivity-enhancing
+      policies, alongside investment in physical and human capital, are central to
+      sustaining manufacturing growth in a sub-national developing-economy setting.
+
+  - title: "Reallocation of the Women's Workforce within the Organised Manufacturing Sector: Evidence from the ASI Data"
+    authors: "Laxmikanta Sarangi, Sulata Pradhan"
+    year: 2026
+    venue: "Published in Samiskhya, Vol. 15 (2026) — Journal of the Directorate of Economics & Statistics, Government of Odisha. Released on the 20th National Statistics Day, 29 June 2026."
+    jel: "J16, J21, L60, O14"
+    keywords: "female labour reallocation, defeminization, organised manufacturing, within-industry decomposition, capital intensity, India"
+    pdf: "women-workforce-reallocation.pdf"
+    slides:
+    note:
+    abstract: >
+      India's industrial policy increasingly treats manufacturing as an engine of
+      employment, yet women remain a small and unevenly distributed part of the organised
+      manufacturing workforce. This paper asks whether the changing presence of women in
+      organised manufacturing has been driven by what happens inside industries or by the
+      movement of employment across them. Using industry-level data from the Annual Survey
+      of Industries for 2014–2024, we decompose the growth of the female share of
+      manufacturing employment into a within-industry effect and a between-industry
+      (reallocation) effect, following the structural-change framework of Ocampo et al.
+      (2009) as applied by Tejani and Kucera (2021). The within-industry component
+      dominates throughout the period and is markedly volatile, including a pronounced
+      spike in 2021, while the reallocation component stays small. Changes in women's
+      employment shares thus originate mainly in processes internal to industries rather
+      than in a structural shift of employment toward female-intensive activities. A
+      complementary cross-section shows a weak but negative association between capital
+      intensity and the female employment share: more capital-intensive industries employ
+      proportionally fewer women. Read together, the results indicate that capital
+      deepening and technological upgrading have not, on their own, widened women's access
+      to manufacturing jobs. We caution that share-based gains can also reflect faster male
+      job loss, and we draw out the implications for skilling and anti-segregation policy.
+
+working_papers:
+  - title: "Monopsony and the Misallocation of Labour in Indian Organised Manufacturing: A Hsieh–Klenow Decomposition, 2012–13 to 2023–24"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Working draft (June 2026). Companion paper to the market-power study (thesis Objective 2)."
+    jel: "D24, D61, J42, L11, O14, O47"
+    keywords: "misallocation, monopsony, markdown, total factor productivity, Hsieh–Klenow, marginal revenue product, Indian manufacturing, ASI"
+    pdf: "paper2-monopsony-misallocation.pdf"
+    slides:
+    note:
+    abstract: >
+      This paper measures the misallocation of labour across plants in Indian organised
+      manufacturing and traces it to its source. Using Annual Survey of Industries (ASI)
+      unit-level data for 2012–13 to 2023–24 (N = 478,442 plant-year observations across 22
+      two-digit NIC industries) and the Hsieh–Klenow (2009) accounting framework, we
+      document substantial dispersion in the marginal revenue product of labour (MRPL):
+      within industry-year cells the standard deviation of log MRPL is 1.20, against 0.36
+      for revenue productivity (log TFPR). Equalising marginal revenue products within
+      industries would raise manufacturing TFP by +102% in the canonical value-added
+      implementation at an elasticity of substitution of 3 (in the 100–128% range that
+      Hsieh–Klenow report for India), and by a conservative +16% in an integrated
+      gross-output implementation. Dispersion has fallen modestly over the period. Our
+      central contribution is to decompose labour misallocation using the exact identity
+      MRPL = w × ψ × μ, where ψ is the plant's labour-market markdown (monopsony power) and
+      μ its product-market markup, both estimated in the companion paper (Objective 1). The
+      markdown alone accounts for 78.8% of the variance of log MRPL; the net market-power
+      channel accounts for 64.6%; equalising the markdown within industries would cut the
+      standard deviation of log MRPL from 1.20 to 0.80 (a 55.7% variance reduction); and
+      the cross-industry correlation between labour misallocation and markdown dispersion
+      is 0.83. The decomposition is robust to the winsorisation threshold, sub-periods,
+      plant-size and balanced-panel restrictions, the cell definition, and the assumed
+      rental rate. Labour misallocation in Indian manufacturing is, first and foremost, a
+      monopsony phenomenon — implying that competition and labour-market policy carry
+      first-order allocative-efficiency gains, not merely distributional ones.
+
+  - title: "Seasonal Adjustment of the IIP Index: A Comparative Analysis of Time Series Methods"
+    authors: "Laxmikanta Sarangi, Swetashree Rout, Debashish Sahoo, Falguni Pattanaik"
+    year: 2026
+    venue: "Working paper."
+    jel: "C22, C43, C82, E32, R11"
+    keywords: "Index of Industrial Production, seasonal adjustment, X-13ARIMA-SEATS, SARIMA, classical decomposition, Odisha"
+    pdf: "iip-seasonal-adjustment.pdf"
+    slides:
+    note:
+    abstract: >
+      The Index of Industrial Production (IIP) is a key high-frequency barometer of
+      industrial activity, but its raw monthly movements are dominated by recurring
+      seasonal and calendar effects that obscure the underlying signal. This paper
+      conducts a comprehensive seasonal adjustment (SA) of the IIP for the State of Odisha
+      (base year 2011–12 = 100, monthly, April 2012 – March 2023, n = 132) and compares
+      three families of methods: (i) classical multiplicative decomposition; (ii) the
+      X-13ARIMA-SEATS program of the U.S. Census Bureau, in four operational variants; and
+      (iii) a SARIMA-based approach. The General Index shows strong, broadly stable
+      seasonality: production peaks at the fiscal year-end (March, +11.7% of the mean) and
+      in winter, and troughs through the south-west monsoon (September, −9.0%). Adjustment
+      compresses the index range from 197.3 to 165.7 points and lowers the coefficient of
+      variation from 25.2% to 23.9%. All four X-13ARIMA-SEATS variants yield near-identical
+      adjusted series (pairwise correlations 0.991–0.998), indicating robustness to the
+      choice of filter; the X-13ARIMA-SEATS-labelled variant attains the lowest residual
+      AICc (1109.6), and all variants leave residuals indistinguishable from white noise.
+      Adjustment also delivers parsimony: the AICc-optimal raw-series model is
+      ARIMA(1,1,4) with drift, whereas the adjusted series reduces to ARIMA(0,1,1) with
+      drift. On the diagnostic evidence and its consistency with the practice of India's
+      National Statistics Office, we recommend the X-13ARIMA-SEATS framework for the
+      routine seasonal adjustment of Odisha's IIP. We also document the COVID-19 shock of
+      2020 and several item-level data-quality issues that condition interpretation.
+
+reviews:
+  - title: "Firm's Labour Market Power: A Review of the Literature"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Review article (PhD thesis, Chapter 2)."
+    jel: "D24, D43, J42, L11, L13, C13, O14"
+    keywords: "market power, markups, markdowns, monopsony, production function, output elasticity, De Loecker–Warzynski, Indian manufacturing"
+    pdf: "review-a-labour-market-power.pdf"
+    slides:
+    note:
+    abstract: >
+      Market power—the capacity of a firm to set price above marginal cost in the product
+      market (a markup) or to pay a wage below the marginal revenue product of labour in
+      the factor market (a markdown)—has returned to the centre of macroeconomics,
+      industrial organisation and development economics. This review traces the
+      intellectual history and the technical state of the art of measuring both faces of
+      market power. We begin with the conceptual foundations (the Lerner index, the markup,
+      and the markdown) and the welfare logic that makes these objects interesting. We then
+      develop the production approach, from Hall (1988)'s reinterpretation of the Solow
+      residual to the firm-level cost-minimisation estimator of De Loecker & Warzynski
+      (2012). Because that estimator stands or falls on a credible estimate of the output
+      elasticity of a flexible input, we give an extended treatment of the
+      production-function toolkit—Olley & Pakes (1996), Levinsohn & Petrin (2003),
+      Ackerberg, Caves & Frazer (2015), Wooldridge (2009) and the non-parametric
+      identification of Gandhi, Navarro & Rivers (2020)—of the choice between Cobb–Douglas
+      and translog technology and between Hicks-neutral and factor-augmenting productivity
+      (Demirer, 2025), and of the identification critiques that define the frontier: the
+      revenue-elasticity problem (Bond et al., 2021), the internal-consistency test of
+      Raval (2023), and the biases in markups read from financial statements (De Ridder,
+      Grassi & Morzenti, 2026; Fernald et al., 2026). We then turn to the factor side: the
+      theory of monopsony from Robinson (1933) to Manning (2003) and the granular
+      general-equilibrium model of Berger, Herkenhoff & Mongey (2022); the three families
+      of markdown measurement; and the striking recent finding that the secular rise in US
+      market power is driven by wage markdowns rather than price markups (Ren & Zhang,
+      2025). We close with the empirical record for the world and for India and with the
+      research gap the thesis fills.
+
+  - title: "Factor (Mis)allocation: A Review of the Literature"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Review article (PhD thesis, Chapter 2)."
+    jel: "O47, O11, D24, E23, L11, O14"
+    keywords: "misallocation, total factor productivity, revenue productivity (TFPR), marginal revenue product of labour, Hsieh–Klenow, wage markdown, monopsony, Indian manufacturing"
+    pdf: "review-b-factor-misallocation.pdf"
+    slides:
+    note:
+    abstract: >
+      A central question of modern macro-development economics is why some economies
+      produce so much less from the same measured inputs than others. One powerful answer
+      is misallocation: even when each plant uses a good technology, aggregate output is
+      lost if inputs are distributed across plants in the wrong proportions, so that an
+      hour of labour or a rupee of capital yields a high return in one plant and a low
+      return in another. This review develops the theory and the measurement of
+      misallocation, organised around the framework of Hsieh & Klenow (2009). We begin with
+      the conceptual foundations—what "misallocation" means, the idea of a wedge, and the
+      two research traditions (the direct-distortion approach of Restuccia & Rogerson
+      (2008) and the indirect, dispersion-based approach of Hsieh and Klenow). We then work
+      through the Hsieh–Klenow model equation by equation: the demand and technology
+      structure, the firm's problem under output and capital wedges, the
+      marginal-revenue-product conditions, the distinction between physical productivity
+      (TFPQ) and revenue productivity (TFPR), and the central result that the dispersion of
+      revenue productivity is—under the model's assumptions—a sufficient statistic for the
+      output loss from misallocation. We then show how the framework specialises to the
+      labour market, where the dispersion of the marginal revenue product of labour (MRPL)
+      becomes the object of interest and the wage markdown of Review A re-enters as the
+      labour wedge—the bridge this thesis builds. We survey the critiques that define the
+      frontier: the measurement-error correction of Bils, Klenow & Ruane (2021), the
+      sufficient-statistic critique of Haltiwanger, Kulick & Syverson (2018), the
+      adjustment-cost critique of Asker, Collard-Wexler & De Loecker (2014), and the
+      variable-markup critique of Li & Wang (2021) and Baqaee & Farhi (2020). We close with
+      the empirical record for the world and for India—including the thesis's own finding
+      that wage markdowns account for the better part of labour misallocation in Indian
+      manufacturing—and with the open questions that Review C takes up.
+
+  - title: "Market Power Becomes Wedges for Misallocation: A Review of the Literature"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Review article (PhD thesis, Chapter 2)."
+    jel: "D43, L11, L13, D24, O47, L60"
+    keywords: "variable markups, wage markdowns, demand systems, misallocation, monopolistic competition, oligopoly, Kimball preferences, pass-through, Indian manufacturing"
+    pdf: "review-c-market-power-wedges.pdf"
+    slides:
+    note:
+    abstract: >
+      This review shows that, once market power is allowed to vary across plants, these
+      are not two subjects but one. A markup or a markdown is a wedge; a wedge that differs
+      across plants misallocates resources; therefore the dispersion of market power is a
+      form of misallocation, and the two literatures must be read together. The argument
+      turns entirely on the demand system. Under the constant-elasticity (CES) benchmark
+      that underlies the canonical Hsieh–Klenow model, every plant charges the same markup,
+      market power is uniform, and it causes no misallocation—a knife-edge case. We
+      therefore develop, equation by equation, the demand systems that break this
+      knife-edge and deliver variable markups: the Kimball flexible aggregator, translog
+      and other variable-elasticity preferences, the linear demand of Melitz & Ottaviano
+      (2008), and the oligopoly model of Atkeson & Burstein (2008) in which the markup
+      rises with a plant's market share. We then set out the formal theory that joins
+      market power to aggregate productivity: the level-versus-dispersion result of Peters
+      (2020); the general-equilibrium aggregation of Baqaee & Farhi (2020) (allocative
+      efficiency as the covariance of markups with reallocation, and a ~15% TFP cost of
+      markup dispersion); and the welfare decomposition of Edmond, Midrigan & Xu (2023)
+      into an aggregate-markup channel, a misallocation channel, and an entry channel. We
+      carry the same logic to the factor market, where the markdown is the wedge and its
+      dispersion is the misallocation of labour that is the thesis's central finding. A
+      dedicated section shows why markups and markdowns cannot be measured separately—the
+      production-approach "markup" is the product of the two (Ren & Zhang, 2025)—and why
+      this makes the joint reading unavoidable. Finally we state precisely the condition
+      under which equalising the markdown would deliver the efficiency gains Review B
+      quantified: the markdown must be both dispersed and correlated with productivity,
+      exactly the Restuccia & Rogerson (2008) correlated-distortion logic.
+
+work_in_progress:
+  - title: "Macroeconomic Determinants of Market Power and Misallocation in Indian Manufacturing"
+    authors: "Laxmikanta Sarangi"
+    year: "in progress"
+    venue: "In progress — thesis Objective 3 (planned: 2027)."
+    jel:
+    keywords: "panel VAR, exchange rate, spatial analysis, market power, misallocation"
+    pdf:
+    slides:
+    note: "A panel-VAR study of the macroeconomic drivers of market power and misallocation, with exchange-rate and spatial (firm-clustering) extensions. Abstract forthcoming."
+    abstract:
