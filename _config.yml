@@ -23,7 +23,7 @@ github:         "Lakshmikant46"
 # Add these later if you create them; blank = hidden:
 google_scholar: ""
 orcid:          ""
-linkedin:       ""
+linkedin:       "https://www.linkedin.com/in/laxmikanta-sarangi-0958b3110/"
 twitter:        "Laxmikantsaran1"
 
 # ---- Affiliation --------------------------------------------------------------
@@ -39,8 +39,11 @@ cv_file: "laxmikanta-sarangi-cv.pdf"
 # ---- Build --------------------------------------------------------------------
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-sitemap        # auto-generates /sitemap.xml so search engines can find the site
 exclude:
   - README.md
+  - HOW-TO-EDIT.md
   - Gemfile
   - Gemfile.lock
   - vendor
