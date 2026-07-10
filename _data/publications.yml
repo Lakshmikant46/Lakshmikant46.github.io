@@ -236,6 +236,31 @@ working_papers:
       2020 and several item-level data-quality issues that condition interpretation.
 
 reviews:
+  - title: "Macroeconomic Determinants and Trade Openness: What Moves Market Power and Misallocation? A Review of the Literature"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Review article (PhD thesis, Chapter 2)."
+    jel: "D24, F13, F31, F14, L11, O14, O47"
+    keywords: "trade liberalisation, tariffs, exchange-rate pass-through, pro-competitive effects, markups, markdowns, misallocation, political economy of protection, shift-share designs, panel VAR"
+    pdf: "review-d-macro-trade.pdf"
+    slides:
+    note:
+    abstract: >
+      This review asks what determines markups, markdowns and misallocation: trade
+      policy, the exchange rate, and the macroeconomic environment. Four literatures are
+      surveyed equation by equation: the theory of pro-competitive trade effects, from
+      Lerner symmetry through Melitz-Ottaviano variable markups and Atkeson-Burstein
+      pricing-to-market; the empirical trade-liberalisation-markup literature, from the
+      first-generation developing-country studies to the watershed of De Loecker,
+      Goldberg, Khandelwal and Pavcnik (2016), whose input-cost channel reversed the
+      expected sign for India; exchange-rate pass-through as a markup phenomenon, and the
+      nascent literature connecting trade to labour-market power; and the macro
+      determinants of misallocation, together with the political economy of why
+      distortions persist, culminating in Hsieh, Klenow, Kyei Manu and Rockall (2026). A
+      final section reviews the econometric designs available for a single-country panel
+      (exposure/shift-share identification and the panel VAR) and states the research gap
+      the thesis's third objective fills.
+
   - title: "Firm's Labour Market Power: A Review of the Literature"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
