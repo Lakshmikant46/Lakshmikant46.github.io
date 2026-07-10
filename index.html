@@ -22,11 +22,9 @@ description: "Laxmikanta Sarangi — Ph.D. scholar in Economics at IIT Roorkee. 
       the juncture of macroeconomic development, productivity, and firm and labour-market
       dynamics. My primary research examines the dynamics of firms' labour-market power
       within and across industries, and I am equally drawn to the (mis)allocation of labour
-      in the Indian manufacturing sector. I am also interested in globalisation, industrial
-      economics, and the production theory underlying empirical industrial organisation.
-      Alongside my doctoral work, I serve as a Statistical Officer at the Directorate of
-      Economics &amp; Statistics, Government of Odisha. I am keen to collaborate on research
-      related to my thesis topic.
+      in the Indian manufacturing sector. Alongside my doctoral work, I serve as a
+      Statistical Officer at the Directorate of Economics &amp; Statistics, Government of
+      Odisha. I am keen to collaborate on research related to my thesis topic.
     </p>
 
     <ul class="links">
@@ -41,16 +39,67 @@ description: "Laxmikanta Sarangi — Ph.D. scholar in Economics at IIT Roorkee. 
   </div>
 </section>
 
-<section>
-  <h2>Research interests</h2>
-  <ul>
-    <li>Market power: markups, wage markdowns, and monopsony in the production-function tradition</li>
-    <li>Labour (mis)allocation and productivity in Indian organised manufacturing</li>
-    <li>Empirical industrial organisation and applied production theory</li>
-    <li>Industrial statistics: the Annual Survey of Industries (ASI) and the Index of Industrial Production (IIP)</li>
-  </ul>
-  <p class="muted">
-    Doctoral thesis: <em>Market Power and Allocation of Labour: A Case Study of Indian
-    Organised Manufacturing Industries</em> (supervised by {{ site.advisor }}, {{ site.department }}, {{ site.institution }}).
-  </p>
+<section class="twocol">
+  <div class="col-main">
+    <h2>The geography of market power in Indian manufacturing</h2>
+    <a class="map-card" href="{{ '/assets/map/india_market_power_map.html' | prepend: site.baseurl }}"
+       aria-label="Open the interactive state map of Indian market power">
+      <img src="{{ '/assets/img/maps/map_monopsony.png' | prepend: site.baseurl }}"
+           alt="Choropleth map of India: monopsony incidence by state, 2012–2022" loading="lazy">
+      <span class="map-cta">Explore the interactive map &rarr;</span>
+    </a>
+    <p class="muted map-note">
+      Five switchable layers — industrial concentration, markups, wage markdowns, monopsony
+      incidence, and misallocation — for every Indian state, estimated from 423,127
+      plant-year observations of the Annual Survey of Industries, 2012–13 to 2022–23.
+      From my working paper
+      <a href="{{ '/assets/papers/wp-protection-without-power.pdf' | prepend: site.baseurl }}"><em>Protection without Power</em></a>.
+    </p>
+
+    <h2>Latest working papers</h2>
+    <ul class="wp-list">
+      <li>
+        <a href="{{ '/assets/papers/wp-protection-without-power.pdf' | prepend: site.baseurl }}">
+          Protection without Power: Tariffs, Exchange Rates, and the Determinants of Market
+          Power and Misallocation in Indian Manufacturing</a>
+        <span class="muted">(2026, with F. Pattanaik)</span>
+      </li>
+      <li>
+        <a href="{{ '/assets/papers/wp-factor-augmenting-markups.pdf' | prepend: site.baseurl }}">
+          Factor-Augmenting Technology and the Measurement of Markups: Evidence from Indian
+          Manufacturing</a>
+        <span class="muted">(2026, with F. Pattanaik)</span>
+      </li>
+    </ul>
+    <p><a href="{{ '/research/' | prepend: site.baseurl }}">All papers and abstracts &rarr;</a></p>
+  </div>
+
+  <aside class="col-side">
+    <div class="side-card">
+      <h2>Research interests</h2>
+      <ul class="interest-list">
+        <li>Market power: markups, wage markdowns, and monopsony in the production-function tradition</li>
+        <li>Labour (mis)allocation and productivity in Indian organised manufacturing</li>
+        <li>Trade, exchange rates, and the macro determinants of market power</li>
+        <li>Spatial economics: agglomeration, rural–urban labour markets</li>
+        <li>Empirical industrial organisation and applied production theory</li>
+        <li>Industrial statistics: the ASI and the IIP</li>
+      </ul>
+    </div>
+
+    <div class="side-card">
+      <h2>Resources</h2>
+      <ul class="interest-list">
+        <li><a href="{{ '/assets/map/india_market_power_map.html' | prepend: site.baseurl }}">Interactive India map</a> of market power &amp; misallocation</li>
+        <li><a href="{{ '/assets/notes/misallocation-beginners-guide.pdf' | prepend: site.baseurl }}">A beginner's guide to misallocation</a> (teaching note, PDF)</li>
+        <li><a href="https://github.com/{{ site.github }}/asi-market-power-misallocation">Replication code &amp; results</a> on GitHub</li>
+      </ul>
+    </div>
+
+    <p class="muted thesis-note">
+      Doctoral thesis: <em>Market Power and Allocation of Labour: A Case Study of Indian
+      Organised Manufacturing Industries</em> (supervised by {{ site.advisor }},
+      {{ site.department }}, {{ site.institution }}).
+    </p>
+  </aside>
 </section>

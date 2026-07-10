@@ -117,6 +117,58 @@ publications:
       job loss, and we draw out the implications for skilling and anti-segregation policy.
 
 working_papers:
+  - title: "Protection without Power: Tariffs, Exchange Rates, and the Determinants of Market Power and Misallocation in Indian Manufacturing"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Working paper (July 2026) - thesis Objective 3."
+    jel: "D24, F13, F31, L11, L60, O14, R12"
+    keywords: "markups, markdowns, monopsony, misallocation, tariffs, exchange rates, panel VAR, India, ASI"
+    pdf: "wp-protection-without-power.pdf"
+    slides:
+    note: "Includes the interactive state map of Indian market power (see front page)."
+    abstract: >
+      We ask what moves market power and misallocation in Indian organised manufacturing.
+      Using 423,127 plant-year observations from the Annual Survey of Industries (2012-13
+      to 2022-23), we estimate plant-level markups, markdowns and monopsony incidence, and
+      within-industry TFPR dispersion, and relate their industry- and state-level evolution
+      to a newly constructed NIC-concorded applied-tariff panel (2011-2023),
+      real-exchange-rate exposure, and state development. Protection does not buy market
+      power: higher output tariffs are associated with lower markups in every
+      specification, the mirror image of the cost-channel result of De Loecker, Goldberg,
+      Khandelwal and Pavcnik (2016) for liberalisation. Real appreciation compresses
+      markups in import-exposed industries, while at finer industry detail protection is
+      associated with lower monopsony incidence. A stable panel VAR confirms these effects
+      dynamically and reveals political-economy feedback: markups and misallocation
+      Granger-cause tariffs. Misallocation is orthogonal to trade policy but rises with
+      state development. Spatially, agglomerated states are uniformly more competitive and
+      better allocated, and monopsony is concentrated in rural plants in almost every major
+      state.
+
+  - title: "Factor-Augmenting Technology and the Measurement of Markups: Evidence from Indian Manufacturing"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Working paper (July 2026)."
+    jel: "D24, L11, L60, O14"
+    keywords: "production functions, factor-augmenting technology, markups, bootstrap, India, ASI"
+    pdf: "wp-factor-augmenting-markups.pdf"
+    slides:
+    note: "First independent implementation of the Demirer (2025) estimator; code on GitHub."
+    abstract: >
+      Production-approach markup estimates rest on Hicks-neutral productivity: if
+      technology instead augments labour, standard estimators read technology heterogeneity
+      as market power. We implement the factor-augmenting production-function estimator of
+      Demirer (2025) on 286,931 plant-year observations from India's Annual Survey of
+      Industries (2012-2022), estimating industry technologies with labour-augmenting
+      heterogeneity in rolling windows for all twenty-three NIC-2008 manufacturing
+      divisions. The pooled median markup falls from 1.240 (translog) and 1.222
+      (Cobb-Douglas) to 1.118 under the factor-augmenting estimator; Cobb-Douglas
+      overstates the materials elasticity by 12.3 per cent (the original paper reports
+      about 11) and understates the labour elasticity by roughly a third, implying
+      Hicks-neutral markdown estimates understate labour-market power. Firm-cluster
+      bootstrap inference shows the downward markup revision exceeds two standard errors in
+      18 of 23 industries. Levels of market power estimated under Hicks-neutrality are
+      upper bounds; cross-plant rankings and the decade trend survive.
+
   - title: "Monopsony and the Misallocation of Labour in Indian Organised Manufacturing: A Hsieh–Klenow Decomposition, 2012–13 to 2023–24"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
@@ -294,13 +346,13 @@ reviews:
       exactly the Restuccia & Rogerson (2008) correlated-distortion logic.
 
 work_in_progress:
-  - title: "Macroeconomic Determinants of Market Power and Misallocation in Indian Manufacturing"
-    authors: "Laxmikanta Sarangi"
+  - title: "Markdowns under Factor-Augmenting Technology: Re-estimating Labour-Market Power in Indian Manufacturing"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: "in progress"
-    venue: "In progress — thesis Objective 3 (planned: 2027)."
+    venue: "In progress (2026)."
     jel:
-    keywords: "panel VAR, exchange rate, spatial analysis, market power, misallocation"
+    keywords: "markdown, monopsony, factor-augmenting technology, labour-supply elasticity"
     pdf:
     slides:
-    note: "A panel-VAR study of the macroeconomic drivers of market power and misallocation, with exchange-rate and spatial (firm-clustering) extensions. Abstract forthcoming."
+    note: "The natural next step of the factor-augmenting markup paper: since Hicks-neutral estimation understates labour elasticities by roughly a third, wage markdowns and monopsony incidence are re-estimated under factor-augmenting technology."
     abstract:
