@@ -174,3 +174,25 @@ details.abstract .abstract-body {
   .hero-photo img { width: 150px; }
   .header-inner { flex-direction: column; align-items: flex-start; }
 }
+
+/* ---- Front page: two-column layout, map card, side cards (added 2026-07) --- */
+.twocol { display: grid; grid-template-columns: 1fr; gap: 0 2.2rem; }
+@media (min-width: 46rem) { .twocol { grid-template-columns: 1.62fr 1fr; } }
+.col-side .side-card {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 8px; padding: 0.35rem 1.1rem 0.9rem; margin: 2.5rem 0 1.2rem;
+}
+.col-side .side-card h2 { margin-top: 1rem; border-bottom: none; font-size: 1.15rem; }
+.interest-list { margin: 0; padding-left: 1.1rem; }
+.interest-list li { margin-bottom: .45rem; font-size: 0.98rem; }
+.map-card { display: block; position: relative; border: 1px solid var(--line);
+  border-radius: 8px; overflow: hidden; text-decoration: none; }
+.map-card img { width: 100%; height: auto; display: block; }
+.map-card:hover { box-shadow: 0 2px 14px rgba(34,56,74,.18); text-decoration: none; }
+.map-cta { position: absolute; right: .8rem; bottom: .8rem;
+  background: var(--accent); color: #fff; font-family: var(--sans);
+  font-size: .85rem; padding: .35rem .7rem; border-radius: 5px; }
+.map-card:hover .map-cta { background: var(--accent-d); }
+.map-note { font-size: .92rem; margin-top: .6rem; }
+.wp-list { padding-left: 1.1rem; } .wp-list li { margin-bottom: .55rem; }
+.thesis-note { font-size: .9rem; }
