@@ -17,39 +17,38 @@
 #    abstract   : the abstract (shown in a collapsible box)
 #
 #  Sections below are rendered in this order on the Research page:
-#    featured -> publications -> working_papers -> reviews -> work_in_progress
+#    featured -> publications -> working_papers -> earlier_drafts -> reviews -> work_in_progress
 # =============================================================================
 
 featured:
-  - title: "Market Power in Indian Organised Manufacturing: Trends, Determinants, and Labour Market Implications"
+  - title: "Markups and Markdowns in Indian Organised Manufacturing: Plant-Level Evidence from the ASI, 2012–2022"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
-    venue: "Working draft (May 2026). Under preparation for journal submission — Journal of Development Economics / Economic Development and Cultural Change / Indian Economic Review."
-    jel: "D22, D43, J42, L11, O14"
-    keywords: "markup, markdown, monopsony, market power, Indian manufacturing, ASI, production function, Cobb–Douglas"
-    pdf: "paper1-market-power.pdf"
+    venue: "Working paper (July 2026) — thesis Objective 1. Estimated on a newly constructed Common-Factory-Id ASI plant panel; the definitive version of the market-power study (supersedes the earlier 2012–13 to 2023–24 draft in Earlier Working Drafts below)."
+    jel: "D24, J42, L11, L60, O14"
+    keywords: "markups, markdowns, monopsony, translog production function, ACF, De Loecker–Warzynski, Melitz–Polanec, Indian manufacturing, ASI"
+    pdf: "obj1-markups-markdowns-2012-2022.pdf"
     slides:
-    note:
+    note: "Product-market power is modest; labour-market power (monopsony) is the binding margin. A factor-augmenting robustness bound is developed in the companion paper."
     abstract: >
-      This paper estimates product-market markups for Indian organised manufacturing
-      using plant-level data from the Annual Survey of Industries (ASI) for 2012–13 to
-      2023–24 (N = 515,374 plant-year observations; 79,704 unique factories across 23
-      two-digit NIC industries). Markups are estimated via the production-function
-      approach of De Loecker & Warzynski (2012), combining a Cobb–Douglas specification
-      with the Ackerberg–Caves–Frazer (ACF) proxy-variable estimator. Contrary to the
-      global trend of rising markups documented by De Loecker, Eeckhout & Unger (2020),
-      the sales-weighted mean markup in Indian organised manufacturing fell from 1.88 in
-      2012–13 to 1.73 in 2023–24 (a decline of 8.2%), though it remains substantially
-      above unity throughout. The median markup is more stable (1.20 in 2013 to 1.17 in
-      2024), indicating that the mean is shaped by a fat right tail of high-markup plants.
-      Markup heterogeneity across industries is large: the median markup ranges from 2.00
-      in tobacco products to 1.07 in basic metals. Within-plant regressions show that a
-      larger output-market share raises market power, while a larger employment share
-      reduces the labour markdown, consistent with dynamic monopsony. Higher markup is
-      associated with lower wages, and higher markdown is similarly associated with lower
-      wages. The labour share of revenue has fallen from 22.3% in 2012–13 to 16.2% in
-      2023–24. These findings have direct implications for competition policy and labour
-      market regulation in India.
+      How large is market power in Indian manufacturing, and does it bind on the price of
+      goods or the price of labour? Using a newly constructed plant panel from the Annual
+      Survey of Industries (2012–2022; 423,127 plant-years, 142,493 factories, 23
+      two-digit NIC industries), we estimate product-market markups and labour-market
+      markdowns jointly from a translog gross-output production function via the
+      De Loecker–Warzynski (2012) approach with the Ackerberg–Caves–Frazer correction, and
+      benchmark them against a Cobb–Douglas ACF specification. Product-market power is
+      modest and stable — the plant-weighted median markup is near 1.22 and the
+      sales-weighted aggregate flat at 1.16–1.21, with a Melitz–Polanec decomposition
+      attributing the stability to within-plant compression offset by reallocation toward
+      high-markup plants. Monopsony is pervasive: the markdown exceeds one for 41–44 per
+      cent of plants, implying a typical-plant labour-supply elasticity near 2. The two
+      wedges have opposite geographies — median markups vary little across the industrial
+      core states, while monopsony incidence spans 0.09–0.63 across states and is higher
+      among rural plants than urban in every year of the sample. A factor-augmenting
+      re-estimation on the same plants shows the markup level is an upper bound and the
+      monopsony a lower bound. The binding margin of market power in Indian factories is
+      not the price of goods but the price of labour.
 
 publications:
   - title: "Structural Change and Manufacturing Productivity Growth in Odisha: Evidence from Organised Industries"
@@ -117,10 +116,38 @@ publications:
       job loss, and we draw out the implications for skilling and anti-segregation policy.
 
 working_papers:
+  - title: "Misallocation, Variable Markups, and the Labour Share: Plant-Level Evidence from Indian Manufacturing, 2012–2022"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Working paper (July 2026) — thesis Objective 2. Fresh Common-Factory-Id ASI panel; the definitive misallocation study (supersedes the earlier Hsieh–Klenow draft in Earlier Working Drafts below)."
+    jel: "O11, O47, D24, D61, L11, E25"
+    keywords: "misallocation, TFPR dispersion, Kimball demand, variable markups, labour share, Hsieh–Klenow, size-dependent wedges, India, ASI"
+    pdf: "obj2-misallocation-labour-share.pdf"
+    slides:
+    note: "The labour-share reversal — efficient reallocation lowers labour's share once markups respond — is the central finding."
+    abstract: >
+      How much would Indian manufacturing produce if capital and labour were allocated
+      efficiently across its plants — and who would gain? On a newly built panel of roughly
+      39,000 organised-sector plants per year (2012–2022) we measure within-industry
+      misallocation with the Hsieh–Klenow accounting and then inside a calibrated Kimball
+      demand system in which markups vary with plant size and respond to reallocation.
+      Counterfactual TFP gains from equalising marginal revenue products within industries
+      are 121–184 per cent, on an inverted-U path that peaks in 2016 and improves
+      thereafter, with capital wedges dominating labour wedges in every year and every
+      state. Variable markups account for under two per cent of measured revenue-productivity
+      dispersion, yet they price away 7–19 per cent of the gains a constant-markup model
+      promises, and their endogenous response reverses the distributional presumption:
+      equalising marginal products lowers the aggregate labour share by 2.65 percentage
+      points, while marginal-cost pricing raises it by 8.7 — efficiency for workers runs
+      through markups, not through reallocation. The size-dependent component of wedges is
+      thin inside the organised sector (2–6 per cent of dispersion), consistent with size
+      distortions binding at the formal–informal boundary below the ASI's coverage floor.
+      Sensitivity analysis in the spirit of Zhang–Xia moves every level and no conclusion.
+
   - title: "Protection without Power: Tariffs, Exchange Rates, and the Determinants of Market Power and Misallocation in Indian Manufacturing"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
-    venue: "Working paper (July 2026) - thesis Objective 3."
+    venue: "Working paper (July 2026) — thesis Objective 3."
     jel: "D24, F13, F31, L11, L60, O14, R12"
     keywords: "markups, markdowns, monopsony, misallocation, tariffs, exchange rates, panel VAR, India, ASI"
     pdf: "wp-protection-without-power.pdf"
@@ -147,61 +174,32 @@ working_papers:
   - title: "Factor-Augmenting Technology and the Measurement of Markups: Evidence from Indian Manufacturing"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
-    venue: "Working paper (July 2026)."
-    jel: "D24, L11, L60, O14"
-    keywords: "production functions, factor-augmenting technology, markups, bootstrap, India, ASI"
+    venue: "Working paper (July 2026). The methodological contribution of the thesis."
+    jel: "D24, C14, L11, L60, O14"
+    keywords: "production functions, factor-augmenting technology, markups, control functions, distribution regression, bootstrap, India, ASI"
     pdf: "wp-factor-augmenting-markups.pdf"
     slides:
-    note: "First independent implementation of the Demirer (2025) estimator; code on GitHub."
+    note: "First independent implementation of the Demirer (2025) estimator; full estimator code, Monte Carlo, and bootstrap on GitHub."
     abstract: >
       Production-approach markup estimates rest on Hicks-neutral productivity: if
       technology instead augments labour, standard estimators read technology heterogeneity
       as market power. We implement the factor-augmenting production-function estimator of
-      Demirer (2025) on 286,931 plant-year observations from India's Annual Survey of
-      Industries (2012-2022), estimating industry technologies with labour-augmenting
-      heterogeneity in rolling windows for all twenty-three NIC-2008 manufacturing
-      divisions. The pooled median markup falls from 1.240 (translog) and 1.222
-      (Cobb-Douglas) to 1.118 under the factor-augmenting estimator; Cobb-Douglas
-      overstates the materials elasticity by 12.3 per cent (the original paper reports
-      about 11) and understates the labour elasticity by roughly a third, implying
-      Hicks-neutral markdown estimates understate labour-market power. Firm-cluster
-      bootstrap inference shows the downward markup revision exceeds two standard errors in
-      18 of 23 industries. Levels of market power estimated under Hicks-neutrality are
-      upper bounds; cross-plant rankings and the decade trend survive.
-
-  - title: "Monopsony and the Misallocation of Labour in Indian Organised Manufacturing: A Hsieh–Klenow Decomposition, 2012–13 to 2023–24"
-    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
-    year: 2026
-    venue: "Working draft (June 2026). Companion paper to the market-power study (thesis Objective 2)."
-    jel: "D24, D61, J42, L11, O14, O47"
-    keywords: "misallocation, monopsony, markdown, total factor productivity, Hsieh–Klenow, marginal revenue product, Indian manufacturing, ASI"
-    pdf: "paper2-monopsony-misallocation.pdf"
-    slides:
-    note:
-    abstract: >
-      This paper measures the misallocation of labour across plants in Indian organised
-      manufacturing and traces it to its source. Using Annual Survey of Industries (ASI)
-      unit-level data for 2012–13 to 2023–24 (N = 478,442 plant-year observations across 22
-      two-digit NIC industries) and the Hsieh–Klenow (2009) accounting framework, we
-      document substantial dispersion in the marginal revenue product of labour (MRPL):
-      within industry-year cells the standard deviation of log MRPL is 1.20, against 0.36
-      for revenue productivity (log TFPR). Equalising marginal revenue products within
-      industries would raise manufacturing TFP by +102% in the canonical value-added
-      implementation at an elasticity of substitution of 3 (in the 100–128% range that
-      Hsieh–Klenow report for India), and by a conservative +16% in an integrated
-      gross-output implementation. Dispersion has fallen modestly over the period. Our
-      central contribution is to decompose labour misallocation using the exact identity
-      MRPL = w × ψ × μ, where ψ is the plant's labour-market markdown (monopsony power) and
-      μ its product-market markup, both estimated in the companion paper (Objective 1). The
-      markdown alone accounts for 78.8% of the variance of log MRPL; the net market-power
-      channel accounts for 64.6%; equalising the markdown within industries would cut the
-      standard deviation of log MRPL from 1.20 to 0.80 (a 55.7% variance reduction); and
-      the cross-industry correlation between labour misallocation and markdown dispersion
-      is 0.83. The decomposition is robust to the winsorisation threshold, sub-periods,
-      plant-size and balanced-panel restrictions, the cell definition, and the assumed
-      rental rate. Labour misallocation in Indian manufacturing is, first and foremost, a
-      monopsony phenomenon — implying that competition and labour-market policy carry
-      first-order allocative-efficiency gains, not merely distributional ones.
+      Demirer (2025) — to our knowledge its first independent implementation — on 286,931
+      plant-year observations from India's Annual Survey of Industries (2012-2022),
+      estimating industry technologies with labour-augmenting heterogeneity by nested GMM
+      with distribution-regression control functions, in rolling windows for all
+      twenty-three NIC-2008 manufacturing divisions, and validating the implementation with
+      an analytic unit test, a Monte Carlo with known technology, a full-fidelity
+      re-estimation, and a full-pipeline firm-cluster bootstrap. The pooled median markup
+      falls from 1.240 (translog) and 1.222 (Cobb-Douglas) to 1.118 under the
+      factor-augmenting estimator; Cobb-Douglas overstates the materials elasticity by 12.3
+      per cent (the original paper reports about 11) and understates the labour elasticity
+      by roughly a third, implying Hicks-neutral markdown estimates understate labour-market
+      power by 60-80 per cent. Firm-cluster bootstrap inference shows the downward markup
+      revision exceeds two standard errors in 18 of 23 industries. Levels of market power
+      estimated under Hicks-neutrality are upper bounds and part of measured markup
+      dispersion is technology dispersion in disguise; cross-plant rankings and the decade
+      trend survive.
 
   - title: "Seasonal Adjustment of the IIP Index: A Comparative Analysis of Time Series Methods"
     authors: "Laxmikanta Sarangi, Swetashree Rout, Debashish Sahoo, Falguni Pattanaik"
@@ -234,6 +232,71 @@ working_papers:
       National Statistics Office, we recommend the X-13ARIMA-SEATS framework for the
       routine seasonal adjustment of Odisha's IIP. We also document the COVID-19 shock of
       2020 and several item-level data-quality issues that condition interpretation.
+
+earlier_drafts:
+  - title: "Market Power in Indian Organised Manufacturing: Trends, Determinants, and Labour Market Implications"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Earlier working draft (May 2026), on 2012–13 to 2023–24 data with a Cobb–Douglas specification. Superseded by the fresh-panel Objective 1 paper (see Featured). Retained for reference."
+    jel: "D22, D43, J42, L11, O14"
+    keywords: "markup, markdown, monopsony, market power, Indian manufacturing, ASI, production function, Cobb–Douglas"
+    pdf: "paper1-market-power.pdf"
+    slides:
+    note: "Earlier version — retained for the record; cite the fresh-panel paper above."
+    abstract: >
+      This paper estimates product-market markups for Indian organised manufacturing
+      using plant-level data from the Annual Survey of Industries (ASI) for 2012–13 to
+      2023–24 (N = 515,374 plant-year observations; 79,704 unique factories across 23
+      two-digit NIC industries). Markups are estimated via the production-function
+      approach of De Loecker & Warzynski (2012), combining a Cobb–Douglas specification
+      with the Ackerberg–Caves–Frazer (ACF) proxy-variable estimator. Contrary to the
+      global trend of rising markups documented by De Loecker, Eeckhout & Unger (2020),
+      the sales-weighted mean markup in Indian organised manufacturing fell from 1.88 in
+      2012–13 to 1.73 in 2023–24 (a decline of 8.2%), though it remains substantially
+      above unity throughout. The median markup is more stable (1.20 in 2013 to 1.17 in
+      2024), indicating that the mean is shaped by a fat right tail of high-markup plants.
+      Markup heterogeneity across industries is large: the median markup ranges from 2.00
+      in tobacco products to 1.07 in basic metals. Within-plant regressions show that a
+      larger output-market share raises market power, while a larger employment share
+      reduces the labour markdown, consistent with dynamic monopsony. Higher markup is
+      associated with lower wages, and higher markdown is similarly associated with lower
+      wages. The labour share of revenue has fallen from 22.3% in 2012–13 to 16.2% in
+      2023–24. These findings have direct implications for competition policy and labour
+      market regulation in India.
+
+  - title: "Monopsony and the Misallocation of Labour in Indian Organised Manufacturing: A Hsieh–Klenow Decomposition, 2012–13 to 2023–24"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Earlier working draft (June 2026), on 2012–13 to 2023–24 data. Superseded by the fresh-panel Objective 2 paper (see Working Papers). Retained for reference."
+    jel: "D24, D61, J42, L11, O14, O47"
+    keywords: "misallocation, monopsony, markdown, total factor productivity, Hsieh–Klenow, marginal revenue product, Indian manufacturing, ASI"
+    pdf: "paper2-monopsony-misallocation.pdf"
+    slides:
+    note: "Earlier version — retained for the record; cite the fresh-panel paper above."
+    abstract: >
+      This paper measures the misallocation of labour across plants in Indian organised
+      manufacturing and traces it to its source. Using Annual Survey of Industries (ASI)
+      unit-level data for 2012–13 to 2023–24 (N = 478,442 plant-year observations across 22
+      two-digit NIC industries) and the Hsieh–Klenow (2009) accounting framework, we
+      document substantial dispersion in the marginal revenue product of labour (MRPL):
+      within industry-year cells the standard deviation of log MRPL is 1.20, against 0.36
+      for revenue productivity (log TFPR). Equalising marginal revenue products within
+      industries would raise manufacturing TFP by +102% in the canonical value-added
+      implementation at an elasticity of substitution of 3 (in the 100–128% range that
+      Hsieh–Klenow report for India), and by a conservative +16% in an integrated
+      gross-output implementation. Dispersion has fallen modestly over the period. Our
+      central contribution is to decompose labour misallocation using the exact identity
+      MRPL = w × ψ × μ, where ψ is the plant's labour-market markdown (monopsony power) and
+      μ its product-market markup, both estimated in the companion paper (Objective 1). The
+      markdown alone accounts for 78.8% of the variance of log MRPL; the net market-power
+      channel accounts for 64.6%; equalising the markdown within industries would cut the
+      standard deviation of log MRPL from 1.20 to 0.80 (a 55.7% variance reduction); and
+      the cross-industry correlation between labour misallocation and markdown dispersion
+      is 0.83. The decomposition is robust to the winsorisation threshold, sub-periods,
+      plant-size and balanced-panel restrictions, the cell definition, and the assumed
+      rental rate. Labour misallocation in Indian manufacturing is, first and foremost, a
+      monopsony phenomenon — implying that competition and labour-market policy carry
+      first-order allocative-efficiency gains, not merely distributional ones.
 
 reviews:
   - title: "Macroeconomic Determinants and Trade Openness: What Moves Market Power and Misallocation? A Review of the Literature"

@@ -12,11 +12,11 @@ description: "Research by Laxmikanta Sarangi — working papers and publications
   organised manufacturing, using plant-level Annual Survey of Industries (ASI) data.
 </p>
 
-{% assign section_keys   = "featured|publications|working_papers|reviews|work_in_progress" | split: "|" %}
-{% assign section_titles = "Featured Working Paper|Publications|Working Papers|Literature Reviews|Work in Progress" | split: "|" %}
-{% assign section_badges = "Working Paper|Published|Working Paper|Review|In progress" | split: "|" %}
+{% assign section_keys   = "featured|publications|working_papers|earlier_drafts|reviews|work_in_progress" | split: "|" %}
+{% assign section_titles = "Featured Working Paper|Publications|Working Papers|Earlier Working Drafts|Literature Reviews|Work in Progress" | split: "|" %}
+{% assign section_badges = "Working Paper|Published|Working Paper|Earlier draft|Review|In progress" | split: "|" %}
 
-{% for i in (0..4) %}
+{% for i in (0..5) %}
   {% assign key = section_keys[i] %}
   {% assign items = site.data.publications[key] %}
   {% if items and items.size > 0 %}
