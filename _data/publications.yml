@@ -208,6 +208,7 @@ working_papers:
     jel: "L11, J42, O33, D24"
     keywords: "monopsony, wage markdowns, factor-augmenting technology, production function estimation, labour supply, minimum wages, India, ASI"
     pdf: "wp-markdowns-factor-augmenting.pdf"
+    brief: "wp-markdowns-factor-augmenting-summary.pdf"
     slides:
     note: "First independent application of the Rubens-Wu-Xu (2025) estimator outside its original setting. Includes a newly assembled state-year minimum wage series for India, 2012-2020, parsed from the Labour Bureau's annual reports."
     abstract: >
