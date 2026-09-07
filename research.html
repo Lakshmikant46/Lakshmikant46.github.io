@@ -39,9 +39,10 @@ description: "Research by Laxmikanta Sarangi — working papers and publications
 
         {% if p.note %}<p class="note">{{ p.note }}</p>{% endif %}
 
-        {% if p.pdf or p.slides %}
+        {% if p.pdf or p.slides or p.brief %}
         <div class="btn-row">
           {% if p.pdf %}<a class="btn" href="{{ '/assets/papers/' | append: p.pdf | prepend: site.baseurl }}">Download PDF</a>{% endif %}
+          {% if p.brief %}<a class="btn" href="{{ '/assets/papers/' | append: p.brief | prepend: site.baseurl }}">Technical summary</a>{% endif %}
           {% if p.slides %}<a class="btn" href="{{ '/assets/papers/' | append: p.slides | prepend: site.baseurl }}">Slides</a>{% endif %}
         </div>
         {% endif %}
