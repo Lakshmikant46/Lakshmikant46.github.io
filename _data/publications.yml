@@ -201,6 +201,42 @@ working_papers:
       dispersion is technology dispersion in disguise; cross-plant rankings and the decade
       trend survive.
 
+  - title: "Markdowns under Factor-Augmenting Technology: Evidence from Indian Manufacturing, 2012-2022"
+    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
+    year: 2026
+    venue: "Working paper (September 2026)."
+    jel: "L11, J42, O33, D24"
+    keywords: "monopsony, wage markdowns, factor-augmenting technology, production function estimation, labour supply, minimum wages, India, ASI"
+    pdf: "wp-markdowns-factor-augmenting.pdf"
+    slides:
+    note: "First independent application of the Rubens-Wu-Xu (2025) estimator outside its original setting. Includes a newly assembled state-year minimum wage series for India, 2012-2020, parsed from the Labour Bureau's annual reports."
+    abstract: >
+      Rubens, Wu and Xu (2025) prove that the production approach to wage markdowns and
+      factor-augmenting productivity are not separately identified: the same cost-share
+      variation that a Hicks-neutral estimator reads as labour market power, a
+      factor-biased estimator reads as labour-augmenting technology. Their remedy is to
+      identify the inverse labour-supply elasticity outside the production function. We
+      implement it on 290,834 plant-year observations from India's Annual Survey of
+      Industries, 2012-2022, using a logit labour-supply model identified by firm export
+      exposure interacted with common exchange-rate and tariff shocks, and a newly
+      assembled state-year minimum wage series parsed from the Labour Bureau's annual
+      reports. Three findings. First, the median wage markdown is 53 per cent, against a
+      Hicks-neutral estimate below one - implying the median plant pays above marginal
+      revenue product - and the two measures are uncorrelated across plants. Second, under
+      the natural CES normalisation the first-order condition holds identically for every
+      elasticity of substitution, so the markdown is invariant to the production
+      parameters; the discrepancy with the Hicks-neutral estimate loads on
+      labour-augmenting productivity with a coefficient exactly equal to the CES exponent,
+      recovered numerically to fifteen decimal places. Third, the direction of the bias
+      reverses the Chinese finding: where the original study finds the Hicks-neutral
+      estimator roughly doubles the true markdown, in India it is a factor 0.37 of it, in
+      every one of 200 bootstrap resamples. A Hicks-neutral markdown estimate is therefore
+      not conservative in either direction. We are explicit about what the Indian data
+      cannot deliver: with 33 states and eight usable years of minimum wage variation the
+      elasticity of substitution is only weakly identified, and the cross-sectional
+      ordering of markdowns under a single wage coefficient is the inverse wage ordering by
+      construction. Neither limitation touches the markdown result, and we show why.
+
   - title: "Seasonal Adjustment of the IIP Index: A Comparative Analysis of Time Series Methods"
     authors: "Laxmikanta Sarangi, Swetashree Rout, Debashish Sahoo, Falguni Pattanaik"
     year: 2026
@@ -433,14 +469,5 @@ reviews:
       quantified: the markdown must be both dispersed and correlated with productivity,
       exactly the Restuccia & Rogerson (2008) correlated-distortion logic.
 
+# This paper is finished and now sits under working_papers.
 work_in_progress:
-  - title: "Markdowns under Factor-Augmenting Technology: Re-estimating Labour-Market Power in Indian Manufacturing"
-    authors: "Laxmikanta Sarangi, Falguni Pattanaik"
-    year: "in progress"
-    venue: "In progress (2026)."
-    jel:
-    keywords: "markdown, monopsony, factor-augmenting technology, labour-supply elasticity"
-    pdf:
-    slides:
-    note: "The natural next step of the factor-augmenting markup paper: since Hicks-neutral estimation understates labour elasticities by roughly a third, wage markdowns and monopsony incidence are re-estimated under factor-augmenting technology."
-    abstract:
