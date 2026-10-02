@@ -31,7 +31,9 @@ A blue window opens, already pointing at the right folder.
 | My **Home-page bio** and research interests | `index.html` | Notepad or VS Code |
 | **Teaching** entries | `_data/teaching.yml` | Notepad or VS Code |
 | Replace my **CV** | put PDF in `assets/cv/`, edit `_config.yml` | — |
-| **Colours / fonts** | `assets/css/style.css` | VS Code |
+| **Colours / fonts** | `assets/css/style.css` (colours are the `--plum`, `--teal`, `--gold` lines at the top) | VS Code |
+| My **photo** | replace `assets/img/laxmikanta-sarangi-2026.jpg` (portrait, 4:5) and `laxmikanta-sarangi-2026-square.jpg` (link previews); the original is `LK_mandira_Photo.jpeg` | — |
+| The **News** box and the four **Research at a glance** cards | `index.html` | Notepad or VS Code |
 
 > **Tip:** these `.yml` and `.html` files are just text. You can open them by
 > right-clicking → *Open with* → *Notepad*. (A free editor like **VS Code** is nicer

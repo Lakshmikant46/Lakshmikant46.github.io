@@ -5,8 +5,9 @@ permalink: /research/
 description: "Research by Laxmikanta Sarangi — working papers and publications on market power, markups and markdowns, monopsony, and labour misallocation in Indian organised manufacturing (ASI)."
 ---
 
+<p class="eyebrow">Working papers · publications · reviews</p>
 <h1>Research</h1>
-<p class="muted">
+<p class="page-intro">
   My research measures firm-level market power — product-market markups and labour-market
   markdowns — and its consequences for wages and the allocation of labour in Indian
   organised manufacturing, using plant-level Annual Survey of Industries (ASI) data.
@@ -16,11 +17,15 @@ description: "Research by Laxmikanta Sarangi — working papers and publications
 {% assign section_titles = "Featured Working Paper|Publications|Working Papers|Earlier Working Drafts|Literature Reviews|Work in Progress" | split: "|" %}
 {% assign section_badges = "Working Paper|Published|Working Paper|Earlier draft|Review|In progress" | split: "|" %}
 
+<nav class="section-nav" aria-label="Sections">
+{% for i in (0..5) %}{% assign k = section_keys[i] %}{% if site.data.publications[k] and site.data.publications[k].size > 0 %}<a href="#{{ k }}">{{ section_titles[i] }}</a>{% endif %}{% endfor %}
+</nav>
+
 {% for i in (0..5) %}
   {% assign key = section_keys[i] %}
   {% assign items = site.data.publications[key] %}
   {% if items and items.size > 0 %}
-  <section>
+  <section id="{{ key }}">
     <h2>{{ section_titles[i] }}</h2>
     {% for p in items %}
       {% capture namebold %}<strong>{{ site.name }}</strong>{% endcapture %}
