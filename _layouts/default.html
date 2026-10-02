@@ -2,7 +2,7 @@
 {% assign page_title = page.title | default: site.name %}
 {% if page.title %}{% assign full_title = page.title | append: " · " | append: site.name %}{% else %}{% assign full_title = site.name | append: " · " | append: site.tagline %}{% endif %}
 {% assign page_desc = page.description | default: site.description %}
-{% assign og_image = "/assets/img/laxmikanta-sarangi.jpg" | prepend: site.baseurl | prepend: site.url %}
+{% assign og_image = "/assets/img/laxmikanta-sarangi-2026-square.jpg" | prepend: site.baseurl | prepend: site.url %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +11,7 @@
   <title>{{ full_title }}</title>
   <meta name="description" content="{{ page_desc | strip_newlines }}">
   <meta name="author" content="{{ site.name }}">
+  <meta name="theme-color" content="#6b2f52">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Open Graph / social preview -->
@@ -25,10 +26,11 @@
   <meta name="twitter:description" content="{{ page_desc | strip_newlines }}">
   <meta name="twitter:image" content="{{ og_image }}">
 
-  <!-- Fonts (falls back to system serif if offline) -->
+  <!-- Fonts: Fraunces (display), Source Serif 4 (reading), Inter (interface).
+       Each falls back to a system face if the network is unavailable. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
 </head>
@@ -37,7 +39,13 @@
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="site-name" href="{{ '/' | prepend: site.baseurl }}">{{ site.name }}</a>
+      <a class="brand" href="{{ '/' | prepend: site.baseurl }}" aria-label="{{ site.name }}, home">
+        <span class="monogram" aria-hidden="true">LS</span>
+        <span class="brand-text">
+          <span class="site-name">{{ site.name }}</span>
+          <span class="site-tag">Economics · IIT Roorkee</span>
+        </span>
+      </a>
       <nav class="site-nav" aria-label="Primary">
         {% assign u = page.url %}
         <a href="{{ '/' | prepend: site.baseurl }}"          {% if u == '/' %}aria-current="page"{% endif %}>Home</a>
@@ -55,8 +63,36 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.name }}. All rights reserved.</p>
-      <p class="muted">Last updated {{ site.time | date: "%-d %B %Y" }}.</p>
+      <div class="footer-grid">
+        <div>
+          <h4>{{ site.name }}</h4>
+          <p>Ph.D. Scholar in Economics, {{ site.department }}, {{ site.institution }}.</p>
+          <p>Statistical Officer, Directorate of Economics &amp; Statistics, Government of Odisha.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="{{ '/research/' | prepend: site.baseurl }}">Research</a></li>
+            <li><a href="{{ '/cv/' | prepend: site.baseurl }}">Curriculum vitae</a></li>
+            <li><a href="{{ '/teaching/' | prepend: site.baseurl }}">Teaching</a></li>
+            <li><a href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Elsewhere</h4>
+          <ul>
+            {% if site.github != "" %}<li><a href="https://github.com/{{ site.github }}" rel="me">GitHub</a></li>{% endif %}
+            {% if site.linkedin != "" %}<li><a href="{{ site.linkedin }}" rel="me">LinkedIn</a></li>{% endif %}
+            {% if site.twitter != "" %}<li><a href="https://x.com/{{ site.twitter }}" rel="me">Twitter / X</a></li>{% endif %}
+            {% if site.google_scholar != "" %}<li><a href="{{ site.google_scholar }}">Google Scholar</a></li>{% endif %}
+            {% if site.orcid != "" %}<li><a href="{{ site.orcid }}">ORCID</a></li>{% endif %}
+          </ul>
+        </div>
+      </div>
+      <div class="footer-base">
+        <span>&copy; {{ site.time | date: "%Y" }} {{ site.name }}. All rights reserved.</span>
+        <span>Last updated {{ site.time | date: "%-d %B %Y" }}.</span>
+      </div>
     </div>
   </footer>
 </body>
