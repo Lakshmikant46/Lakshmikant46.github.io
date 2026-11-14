@@ -156,7 +156,33 @@ working_papers:
     authors: "Laxmikanta Sarangi, Swetashree Rout, Debashish Sahoo, Falguni Pattanaik"
     year: 2026
     venue: "Working paper."
-    note: "Draft available on request."
+    jel: "C22, C43, C82, E32, R11"
+    keywords: "Index of Industrial Production, seasonal adjustment, X-13ARIMA-SEATS, SARIMA, classical decomposition, Odisha"
+    pdf: "iip-seasonal-adjustment.pdf"
+    slides:
+    note:
+    abstract: >
+      The Index of Industrial Production (IIP) is a key high-frequency barometer of
+      industrial activity, but its raw monthly movements are dominated by recurring
+      seasonal and calendar effects that obscure the underlying signal. This paper
+      conducts a comprehensive seasonal adjustment (SA) of the IIP for the State of Odisha
+      (base year 2011–12 = 100, monthly, April 2012 – March 2023, n = 132) and compares
+      three families of methods: (i) classical multiplicative decomposition; (ii) the
+      X-13ARIMA-SEATS program of the U.S. Census Bureau, in four operational variants; and
+      (iii) a SARIMA-based approach. The General Index shows strong, broadly stable
+      seasonality: production peaks at the fiscal year-end (March, +11.7% of the mean) and
+      in winter, and troughs through the south-west monsoon (September, −9.0%). Adjustment
+      compresses the index range from 197.3 to 165.7 points and lowers the coefficient of
+      variation from 25.2% to 23.9%. All four X-13ARIMA-SEATS variants yield near-identical
+      adjusted series (pairwise correlations 0.991–0.998), indicating robustness to the
+      choice of filter; the X-13ARIMA-SEATS-labelled variant attains the lowest residual
+      AICc (1109.6), and all variants leave residuals indistinguishable from white noise.
+      Adjustment also delivers parsimony: the AICc-optimal raw-series model is
+      ARIMA(1,1,4) with drift, whereas the adjusted series reduces to ARIMA(0,1,1) with
+      drift. On the diagnostic evidence and its consistency with the practice of India's
+      National Statistics Office, we recommend the X-13ARIMA-SEATS framework for the
+      routine seasonal adjustment of Odisha's IIP. We also document the COVID-19 shock of
+      2020 and several item-level data-quality issues that condition interpretation.
 
 earlier_drafts:
   - title: "Market Power in Indian Organised Manufacturing: Trends, Determinants, and Labour Market Implications"
