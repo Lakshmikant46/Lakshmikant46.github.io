@@ -21,29 +21,30 @@
 # =============================================================================
 
 featured:
-  - title: "Markups and Markdowns in Indian Organised Manufacturing: Plant-Level Evidence from the ASI, 2012–2022"
+  - title: "Market Imperfections in India's Organised Manufacturing Sector: State- and Industry-Level Empirical Evidence"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
-    venue: "Working paper (October 2026) — thesis Objective 1. Estimated on a newly constructed Common-Factory-Id ASI plant panel, with year effects in the first stage of the production-function estimator; the definitive version of the market-power study (supersedes the earlier 2012–13 to 2023–24 draft in Earlier Working Drafts below)."
+    venue: "Working paper (November 2026; revised after supervisor review) — thesis Objective 1. Estimated on a newly constructed Common-Factory-Id ASI plant panel, with year effects in the first stage of the production-function estimator; the definitive version of the market-power study (supersedes the earlier 2012–13 to 2023–24 draft in Earlier Working Drafts below)."
     jel: "D22, D24, D43, J42, L11, L13, L60, O14"
     keywords: "markups, markdowns, monopsony, translog production function, ACF, De Loecker–Warzynski, Melitz–Polanec, Indian manufacturing, ASI"
     pdf: "obj1-markups-markdowns-2012-2022.pdf"
     slides:
     note: "Product-market power is modest; labour-market power is concentrated in a large minority of plants. An earlier draft's falling markup was an artefact of the first stage and is corrected here."
     abstract: >
-      Using 423,127 plant-years from India's Annual Survey of Industries, 2012–2022, we
-      jointly estimate price markups and wage markdowns under a translog technology
-      identified by the moment conditions of Ackerberg, Caves and Frazer (2015).
-      Product-market power is modest: the median markup is 1.22, and the sales-weighted
-      aggregate rose 4.6 per cent, two-thirds of it through reallocation towards high-markup
-      plants. Labour-market power is concentrated: 48 per cent of plants pay labour below
-      its marginal revenue product (44 per cent unweighted), although the median plant does
-      not. The two margins rank industries in opposite directions and have different
-      geographies. Monopsony incidence ranges from 31 to 67 per cent across states, and
-      three-quarters of the gap between high- and low-incidence states remains within
-      industries. Contract labour, 46 per cent of the workforce by 2022, is barely related
-      to the markdown. Because the ASI records no geography finer than the state, which
-      corresponds to no commuting zone, the thin-market mechanism remains untested.
+      Motivated by the long decline in labour's share of manufacturing value added, this
+      paper measures product-market and labour-market power jointly in India's organised
+      manufacturing sector. Using four lakh plant-year observations from the Annual Survey of
+      Industries (2012–13 to 2022–23), we estimate markups and markdowns through a translog
+      production function and a two-stage control-function approach. The median markup is
+      1.22. By contrast, 44.0 per cent of plant-years exhibit monopsony (48.4 per cent with
+      survey weights), although the median plant does not. Monopsony incidence ranges from
+      31.0 to 66.9 per cent across states. Differences within the same industries account for
+      73.9 per cent of the incidence gap between high- and low-incidence state groups.
+      Contract labour accounts for 45.7 per cent of the workforce, yet contract intensity is
+      at most weakly associated with measured plant-level markdowns. Aggregate patterns are
+      more robust than division-level markdowns. The findings highlight the importance of
+      labour-market conditions alongside product-market competition in assessing India's
+      recent manufacturing development.
 
 publications:
   - title: "Structural Change and Manufacturing Productivity Growth in Odisha: Evidence from Organised Industries"
@@ -114,25 +115,28 @@ working_papers:
   - title: "Misallocation, Variable Markups, and the Labour Share: Plant-Level Evidence from Indian Manufacturing, 2012–2022"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
     year: 2026
-    venue: "Working paper (October 2026) — thesis Objective 2. Fresh Common-Factory-Id ASI panel; the definitive misallocation study (supersedes the earlier Hsieh–Klenow draft in Earlier Working Drafts below)."
+    venue: "Working paper (November 2026; revised after supervisor review) — thesis Objective 2. Fresh Common-Factory-Id ASI panel; the definitive misallocation study (supersedes the earlier Hsieh–Klenow draft in Earlier Working Drafts below)."
     jel: "O11, O47, D24, D61, L11, E25"
     keywords: "misallocation, TFPR dispersion, Kimball demand, variable markups, labour share, Hsieh–Klenow, size-dependent wedges, India, ASI"
     pdf: "obj2-misallocation-labour-share.pdf"
     slides:
     note: "The labour-share reversal — efficient reallocation lowers labour's share once markups respond — is the central finding."
     abstract: >
-      How much output does Indian manufacturing lose to misallocation, and do variable
-      markups change the answer? On a new panel of about 39,000 organised-sector plants per
-      year for 2012–2022, we measure within-industry misallocation with the Hsieh–Klenow
-      accounting and inside a calibrated Kimball demand system. Equalising marginal revenue
-      products within industries would raise measured TFP by 121–184 per cent among plants
-      holding half of value added, a static bound, not a policy gain. Capital wedges exceed
-      labour wedges in every year and state, and the wedges are persistent rather than
-      transitory noise. Variable markups explain under two per cent of dispersion yet change
-      the gain by 7–19 per cent, in a direction set by the demand system: two of four
-      alternatives reverse it. Equalisation lowers the markup-implied labour share by 2.65
-      percentage points (0.94 under domestic capital elasticities). Wages are held fixed, so
-      this prices the markup margin, not workers' incomes.
+      This paper examines resource misallocation and the role of endogenous markups in
+      India's organised manufacturing sector. Using four lakh plant-year observations from
+      the Annual Survey of Industries for 2012–2022, we combine Hsieh–Klenow wedge accounting
+      with a calibrated Kimball demand system in which markups respond to reallocation.
+      Within-industry variance of log revenue productivity declines from 0.729 to 0.586,
+      while capital-side dispersion remains larger and more persistent than labour-side
+      dispersion. Full equalisation of modelled wedges implies Kimball-market productivity
+      gains of about 121–184 per cent across non-boundary years; these are structural
+      benchmarks, not feasible policy gains. Under the baseline demand specification the
+      gains are 7–19 per cent lower than constant-markup CES gains, but alternative demand
+      systems reverse this comparison. Measured dispersion is also highly sensitive to
+      accounting: value-added revenue-product variance is several times its gross-output
+      counterpart on a matched sample, although both decline over time. Measured dispersion,
+      the output effects of endogenous pricing, and removable distortions should therefore
+      be distinguished.
 
   - title: "What Moves Market Power? Macroeconomic Determinants of Markups, Markdowns and Misallocation in Indian Manufacturing, 2008–2022"
     authors: "Laxmikanta Sarangi, Falguni Pattanaik"
